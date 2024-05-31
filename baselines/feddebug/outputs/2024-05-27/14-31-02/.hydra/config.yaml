@@ -1,0 +1,11 @@
+dataset:
+  name: cifar10
+  batch_size: 32
+model:
+  name: Net
+strategy:
+  _target_: feddebug.strategy.FedDebugStrategy
+client:
+  _target_: feddebug.client.client_fn
+num_clients: 2
+num_rounds: 1

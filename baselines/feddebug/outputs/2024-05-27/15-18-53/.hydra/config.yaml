@@ -1,0 +1,7 @@
+dataset:
+  name: cifar10
+  batch_size: 32
+model:
+  name: Net
+num_clients: 10
+num_rounds: 1
